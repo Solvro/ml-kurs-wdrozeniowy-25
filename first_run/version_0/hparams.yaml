@@ -1,0 +1,3 @@
+dropout: 0.3
+hidden_size: 64
+learning_rate: 0.001
