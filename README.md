@@ -1,2 +1,5 @@
 ### Kurs wdrożeniowy 25/26
-:P
+
+Maciej Lisak
+
+Commit History: [My Repo](https://github.com/Orio77/perceptron)
