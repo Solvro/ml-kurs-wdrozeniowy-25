@@ -3,15 +3,16 @@ import numpy as np
 class Perceptron:
   def __init__(self, wSize, b=None):
     rng = np.random.default_rng()
-    self.w = rng.uniform(low=-0.01, high=0.01, size=(wSize, 1))
-    self.b = b or rng.uniform(low=0.0, high=1.0)
-    pass
+    self.w = rng.uniform(low=-0.01, high=0.01, size=(wSize, 1)) # weights
+    self.b = b or rng.uniform(low=0.0, high=1.0) # bias
   
-  def Z(self, X: np.ndarray):
+  def Z(self, X: np.ndarray) -> int:
+    """Linear transformation function"""
     return np.matrix_transpose(self.w) @ X + self.b
   
-  def A(self, Z: int):
-    return 1 / (1 + np.power(np.e, -Z))
+  def A(self, Z: int) -> int:
+    """Sigmoid activation function"""
+    return 1 / (1 + np.power(np.e, -Z)) # squash between 0 and 1
 
   def forward(self, X: np.ndarray): 
     return self.A(self.Z(X=X))
