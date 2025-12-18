@@ -1,0 +1,14 @@
+Ogólnie zadanie zrealizowane jest poprawnie, lecz fakt że wykresy BCE loss skaczą
+góra-dół świadczy, że w kodzie jest coś nie tak. W notatniku zauważyć można następujące ostrzeżenie:
+'overflow encountered in power return 1 / (1 + np.power(np.e, -Z))'. Ten jeden błąd powoduje, że
+wszystkie przedstawione w notatniku wizualizacje stają się nieprzydatne - albo może mnie się wydaje
+że to przez to te wykresy tak latają góra-dół xdd idk. Ogólnie nie uważam to za normalne by tak
+wyglądała funkcja straty, więc pewnie coś jest nie tak w kodzie. Może jest to kwestia nieustandaryzowanych
+danych? Do treningu bierzesz cechy 'age' oraz 'balance', które mają mocno odmienne zakresy wartości,
+a nie zauważyłem nigdzie by dane te były standaryzowane.
+
+Co do samego notatnika to myślę, że dobrze byłoby opisać przynajmniej jednym lub dwoma zdaniami
+każdy krok tego co się robi w notatniku, gdyż na obecną chwilę wyglądało to tak, że musiałem się
+domyślać co zostało realizowane w ramach tego zadania poprzez czytanie kodu, którego większości
+w samym notatniku nie ma tylko jest importowany z kilku różnych modułów, co również było dla mnie
+niewygodne podczas sprawdzania tej pracy.
