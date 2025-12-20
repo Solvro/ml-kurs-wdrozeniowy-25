@@ -1,1 +1,3 @@
-Zadanie zrobione elegancko od deski do deski. No nie wiem czy można się do czegoś przyczepić, wszystko czytelnie wyjasnione, fajnie że wrzuciłeś te wzory i pokazałeś jak je liczysz. wnioski tak samo wyglądają na prawidłowe. Jedyne co to ta funkcja do wizualizacji jest takim makaroem ale no to tylko funkcja do wizualizacji więc w/e. Dobra robota
+Zadanie zrobione elegancko od deski do deski. No nie wiem czy można się do czegoś przyczepić,
+wszystko czytelnie wyjasnione, fajnie że wrzuciłeś te wzory i pokazałeś jak je liczysz. wnioski tak samo wyglądają na prawidłowe. 
+Jedyne co to ta funkcja do wizualizacji jest takim makaroem ale no to tylko funkcja do wizualizacji więc w/e. Dobra robota
