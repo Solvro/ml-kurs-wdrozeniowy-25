@@ -1,6 +1,9 @@
 # --- Jupyter Notebooks ---
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
+lista3/runs/*
+lista3/models/*
+lista3/data/*
 
 # --- Python ---
 __pycache__/
