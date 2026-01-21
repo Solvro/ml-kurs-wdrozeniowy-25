@@ -17,3 +17,7 @@ venv/
 
 # --- VS Code ---
 .vscode/
+
+lista4/data
+lista4/models
+lista4/runs
