@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Datasets
+data/
+*.tar.gz
+*.zip
+*.csv
+
+# Models (optional, but often good to ignore large ones unless using LFS)
+# *.pth
+# *.ckpt
