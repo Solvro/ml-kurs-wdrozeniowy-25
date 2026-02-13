@@ -2051,6 +2051,7 @@ dependencies = [
     { name = "torch" },
     { name = "torchinfo" },
     { name = "torchvision" },
+    { name = "tqdm" },
     { name = "ucimlrepo" },
 ]
 
@@ -2067,6 +2068,7 @@ requires-dist = [
     { name = "torch", specifier = ">=2.9.1" },
     { name = "torchinfo", specifier = ">=1.8.0" },
     { name = "torchvision", specifier = ">=0.24.1" },
+    { name = "tqdm", specifier = ">=4.67.1" },
     { name = "ucimlrepo", specifier = ">=0.0.7" },
 ]
 
