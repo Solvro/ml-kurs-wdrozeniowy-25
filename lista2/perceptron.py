@@ -8,7 +8,7 @@ class Perceptron:
   
   def Z(self, X: np.ndarray) -> int:
     """Linear transformation function"""
-    return np.matrix_transpose(self.w) @ X + self.b
+    return self.w.T @ X + self.b
   
   def A(self, Z: int) -> int:
     """Sigmoid activation function"""

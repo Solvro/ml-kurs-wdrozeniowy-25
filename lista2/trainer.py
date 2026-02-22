@@ -95,11 +95,11 @@ class Trainer:
     fn = np.sum((y_pred == 0) & (y_true == 1))
     
     # Calculate precision and recall
-    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    precision = tp / (tp + fp + 1e-8)
+    recall    = tp / (tp + fn + 1e-8)
     
     # Calculate F1 score
-    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+    f1 = 2 * (precision * recall) / (precision + recall + 1e-8)
     
     return f1
   
